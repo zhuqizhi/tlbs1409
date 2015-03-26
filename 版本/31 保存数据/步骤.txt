@@ -1,0 +1,3 @@
+创建PrivateChatEntity
+在privateChatBiz,把message放到entity
+发广播去显示

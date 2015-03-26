@@ -1,0 +1,39 @@
+Microsoft Windows [版本 6.1.7601]
+版权所有 (c) 2009 Microsoft Corporation。保留所有权利。
+
+C:\Users\tarena>cd D:\android-sdk-windows\android-sdk-windows\platform-tools
+
+C:\Users\tarena>d:
+
+D:\android-sdk-windows\android-sdk-windows\platform-tools>adb shell
+root@android:/ # cd data
+cd data
+root@android:/data # cd data
+cd data
+root@android:/data/data # cd com.tarena.tlbs
+cd com.tarena.tlbs
+root@android:/data/data/com.tarena.tlbs # ls
+ls
+cache
+databases
+files
+lib
+shared_prefs
+root@android:/data/data/com.tarena.tlbs # cd databases
+cd databases
+root@android:/data/data/com.tarena.tlbs/databases # ls
+ls
+chat.db
+chat.db-journal
+root@android:/data/data/com.tarena.tlbs/databases # sqlite3 chat.db
+sqlite3 chat.db
+SQLite version 3.7.11 2012-03-20 11:35:50
+Enter ".help" for instructions
+Enter SQL statements terminated with a ";"
+sqlite> .table
+.table
+android_metadata  message
+sqlite> select  * from message;
+select  * from message;
+1|zhangjiujun@tarena.com|qilei@tarena.com|chat|1
+sqlite>

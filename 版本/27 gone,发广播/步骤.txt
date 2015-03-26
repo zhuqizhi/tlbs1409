@@ -1,0 +1,6 @@
+my_msg_item.xml  gone
+MyMsgAdatper
+const
+MyMsgActivity,增加receiver
+注册，注销
+allListener中发广播

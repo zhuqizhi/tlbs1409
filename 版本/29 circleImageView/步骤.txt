@@ -1,0 +1,6 @@
+拷贝attrs.xml
+拷贝 CircelImageView.java
+在my_friend_friend.xml使用自定义view
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"

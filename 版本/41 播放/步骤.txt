@@ -1,0 +1,7 @@
+1，ChatUtil.addAudioTag
+2，ChatUti.getAudio
+3,right.xml,left.xml增加一个播放imageView
+
+4,PrivateChatActivity.onReceiver
+ case Audio:
+   ImageView Ivplay

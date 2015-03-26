@@ -1,0 +1,7 @@
+AddFriendBiz
+{
+  花名册，放的是好友，好友分组信息
+  roster
+
+
+}

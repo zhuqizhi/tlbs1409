@@ -1,0 +1,12 @@
+收到图<!--image>base64字符串
+fileName ChatUtil.saveImageToSdcard()
+{
+body=<!--sdcardImage>1111.png<!end>
+}
+
+显示
+Type 增加sdcardImage
+ChatUtil.getImage(body)
+{
+ 根据body中的文件名从sdcard中读图片
+}

@@ -1,0 +1,5 @@
+Tapplication  Arraylist<Object>
+AllListerner£¬°Ñprsence·Åµ½list
+my_msg_item.xml
+MyMsgAdapter
+MyMsgActivity

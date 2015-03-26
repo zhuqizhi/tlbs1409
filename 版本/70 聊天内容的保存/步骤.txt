@@ -1,0 +1,7 @@
+DbHelper
+MessageDao.insert
+收到数据时就调用MessageDao.insert
+
+
+MessageDao.query
+PrivateChatActivity.onCreate()调query

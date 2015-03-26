@@ -1,0 +1,10 @@
+FriendEntity
+AddFriendBiz
+add_friend.xml
+AddFriendActivity
+注册
+MyFriend. onClick{startActivity}
+
+用断点跟
+到logcat看allInterceptor
+好友和我必须连同一个服务器，serviceName必须一样。

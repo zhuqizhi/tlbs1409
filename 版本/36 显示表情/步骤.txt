@@ -1,0 +1,12 @@
+拷贝表情
+FaceAdapter
+
+private_chat.xml
+增加一个gridView
+
+增加一个faceButton
+face_button_selector.xml
+
+显示Gif
+拷贝so和org package
+使用GifImageView

@@ -1,0 +1,6 @@
+1,right.xml,left.xml增加imageView
+2,kChatUtil.addMapTag()
+3,chatUtil.getMap()
+4,写实现类
+5,注册
+6,map.getCurrentMap

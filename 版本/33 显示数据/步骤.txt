@@ -1,0 +1,5 @@
+right.xml
+
+ÔÚprivateChatActivityÖĞÕÒµ½LinearLayout
+
+linerlayout.addView(right.xml)

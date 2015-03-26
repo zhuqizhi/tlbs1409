@@ -1,0 +1,8 @@
+1,录音，写sdcard权限 
+2,
+ Const增加audio_path
+file ChatUtil.getAudioFile()
+
+3,private_chat.xml 增加录音按钮
+4,recorder.xml
+5,btnStart.onClcik

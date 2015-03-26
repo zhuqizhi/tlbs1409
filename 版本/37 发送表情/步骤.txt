@@ -1,0 +1,5 @@
+发表情<!--face>7515</end>
+ChatUtil
+定义五种数据的tag
+
+addFaceTag(faceid)

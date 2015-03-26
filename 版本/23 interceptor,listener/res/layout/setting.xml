@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/title_backaground" >
+
+       
+
+        <TextView
+            android:id="@+id/tv_topic_topic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="设置"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_title" />
+
+        <ImageView
+            android:id="@+id/iv_topic_showMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/show_menu" />
+
+        <ImageView
+            android:id="@+id/iv_topic_createTopic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/create_topic" />
+        
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/title"
+
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btn_setting_exit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="退出" />
+        <Button
+            android:id="@+id/btn_setting_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="升级" />
+
+    </LinearLayout>
+
+</RelativeLayout>

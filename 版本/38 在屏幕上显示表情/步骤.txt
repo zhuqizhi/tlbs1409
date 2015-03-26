@@ -1,0 +1,6 @@
+<!--face>2130837515<!end>
+显示表情
+int ChatUtil.getType(body)
+int getFaceId(body)
+
+right.xml,left.xml增加一个GifImageView

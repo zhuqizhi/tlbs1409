@@ -1,0 +1,9 @@
+第一次从网上加载图片，以后从sdcard上加载
+Const.image_path
+
+ImageUtil.diplayNetworkImage.
+ onLodingComplete，保存到sdcard
+
+ImageUtil.displaySdcardImage()
+
+在topicAdapter.getView判断sdcard上有图片，加载sdcard上的，没有再联网取

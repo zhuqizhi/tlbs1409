@@ -1,0 +1,11 @@
+Const.download_apk_path
+加权限
+Tools.writeToSdcard()
+updateBiz.downloadApk( 联网，保存，发消息)
+升级.onClick() {updateBiz.downloadApk()}
+
+handlerMessage
+{
+  case msg_type_install_apk
+     安装apk
+}

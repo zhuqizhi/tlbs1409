@@ -1,0 +1,4 @@
+1,拷贝so和jar
+2,拷贝 权限和service
+3，Tapplication
+4,private_chat.xml中加上mapView

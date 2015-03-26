@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/title_backaground" >
+
+        <TextView
+            android:id="@+id/tv_private_chat_friendName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="friendName" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView_group_chat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/button"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/title"
+        android:background="@color/contentBackground" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout_group_chat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true" >
+
+        <LinearLayout
+            android:id="@+id/ll_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tv_private_chat_more"
+                style="@style/content_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/login_username_margin"
+                android:layout_marginRight="@dimen/login_username_margin"
+                android:text="+"
+                android:textSize="48dp" />
+
+            <EditText
+                android:id="@+id/et_group_chat_body"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+
+                <requestFocus />
+            </EditText>
+
+            <Button
+                android:id="@+id/btn_group_chat_submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="submit" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_more"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ll_button"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <LinearLayout
+                android:id="@+id/ll_more1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btn_private_chat_sendFace"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/login_username_margin"
+                    android:background="@drawable/chat_bottombar_icon_face_pressed" />
+
+                <Button
+                    android:id="@+id/btn_private_chat_sendImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/add_pic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_more2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btn_private_chat_sendAudio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/login_username_margin"
+                    android:background="@drawable/mic" />
+
+                <Button
+                    android:id="@+id/btn_private_chat_sendMap"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/map_overlay_blue" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <GridView
+            android:id="@+id/gridView_private_chat"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/ll_button"
+            android:numColumns="3"
+            android:visibility="gone" >
+        </GridView>
+
+        <com.baidu.mapapi.map.MapView
+            android:id="@+id/mapView_private_chat"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/ll_button"
+            android:clickable="true"
+            android:visibility="gone" >
+        </com.baidu.mapapi.map.MapView>
+    </RelativeLayout>
+
+</RelativeLayout>

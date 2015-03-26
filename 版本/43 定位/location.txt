@@ -1,0 +1,1 @@
+01-13 14:40:01.672: I/MyLocationListener(3145): longitude=116.471499,latitude=39.882367

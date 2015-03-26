@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/title_backaground" >
+
+        <Button
+            android:background="@drawable/show_menu"
+            android:id="@+id/btn_topic_showMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+android:layout_centerVertical="true"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/tv_topic_addTopic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/btn_topic_showMenu"
+            android:layout_alignBottom="@+id/btn_topic_showMenu"
+            android:layout_alignParentRight="true"
+            android:text="添加" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/title"
+        android:background="@color/contentBackground" >
+
+        <ListView
+            android:id="@+id/lv_topic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            >
+        </ListView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

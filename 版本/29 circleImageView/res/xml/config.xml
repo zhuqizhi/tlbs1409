@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <!-- 124.207.192.18 -->
+    <host>192.168.188.98</host>
+
+    <port>5222</port>
+
+    <serviceName>tarena.com</serviceName>
+
+</config>

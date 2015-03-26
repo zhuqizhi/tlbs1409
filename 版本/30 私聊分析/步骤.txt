@@ -1,0 +1,11 @@
+全局变量Tapplication.currentUser
+在登录成功后给Tapplication.currentUser设值
+PrivateChatBiz
+private_chat.xml
+PrivateActivity
+注册
+MyFriendActivity startActivity
+
+出错
+1,在每个方法加try,catch(打印)，看logcat
+2,断点，去跟踪所有可能出错的程序。

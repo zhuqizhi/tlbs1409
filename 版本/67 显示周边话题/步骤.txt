@@ -1,0 +1,14 @@
+1,ArrayList<TopicEntity>放到Tapplication
+2,nearby_topic.xml增加mapView,TextView
+
+3,地图上显示很多话题 
+for (list<TopicEntity>)
+{
+  overlayItem
+  myOverlay.add(overlayItem)
+}
+
+4,myOverlay.onTap()
+{
+tvUsername.setText("1")
+}

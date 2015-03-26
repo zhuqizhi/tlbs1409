@@ -1,0 +1,7 @@
+当网络打开时，服务器会自动给手机发内容
+知道网是不是打开了或关闭了
+用户关网了，操作系统会发广播
+
+Tapplction增加变量
+networkStateChagedReceiver
+在manifest.xml静态注册

@@ -1,0 +1,12 @@
+
+tarena@tarena-PC ~
+$ cd $NDK
+
+ cd samples
+
+
+$ cd hello-jni
+
+$ cd jni
+
+$ $NDK/ndk-build

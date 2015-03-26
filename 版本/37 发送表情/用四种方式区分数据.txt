@@ -1,0 +1,18 @@
+7515
+好友发表情，收到的是7515,这个7515是什么图的id,还是文本
+要解决的问题，要描述数据7515的含义
+解决方法:多发一个数据（type）,type的作用是来描述data 7515的含义
+直接发face7515
+1,json
+   {"type":"face","data":7515}
+   {"type":"text","data":7515}
+2,xml
+   <type>face</type> <data>7515</data>
+   <type>text</type> <data>7515</data>
+3,用form格式 
+    type=face&data=7515
+    type=text&data=7515
+4,自定义tag
+   <!--face>7515</end>
+
+

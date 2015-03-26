@@ -1,0 +1,7 @@
+1,chatUtil增加String addImageTag(byte[])
+2,bitmap getImage(String)
+3,right.xml,left.xml增加ImageView
+4，private_chat.xml增加一个发送图片的按钮
+5,PrivateChatActivity
+  4.1 btnImage.onClick(打开系统图库)
+  4.2 OnActivityResult()发送图片。
